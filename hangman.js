@@ -100,7 +100,7 @@ function onGuessLetterButtonClick() {
      		check = partialWordGlobal.toString();
      		if (check.indexOf("_") === -1) {
      	    	document.getElementById("message").innerHTML += "<br/>Congrats! You have guessed the word correctly!";
-     	    	pic.src = "images/you_win.jpg";
+     	    	pic.src = "you_win.jpg";
      	    	document.getElementById("letterInput").disabled = true;
     	    	document.getElementById("guessLetterButton").disabled = true;
      	    }
@@ -120,22 +120,22 @@ function onGuessLetterButtonClick() {
      		
   		    switch (numWrongGuessesGlobal) {
      			case 1:
-     				pic.src = "images/man_1.png";
+     				pic.src = "man_1.png";
      				break;
      			case 2:
-     				pic.src = "images/man_2.png";
+     				pic.src = "man_2.png";
      				break;
      			case 3:
-     				pic.src = "images/man_3.png";
+     				pic.src = "man_3.png";
      				break;
      			case 4:
-     				pic.src = "images/man_4.png";
+     				pic.src = "man_4.png";
      				break;
      			case 5:
-     				pic.src = "images/man_5.png";
+     				pic.src = "man_5.png";
      				break;
      			case 6:
-     				pic.src = "images/man_6.png";
+     				pic.src = "man_6.png";
      				break;
      			default:
      				;//do nothing
