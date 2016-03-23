@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Word guessing game - hangman</title>
+    <style>
+        img {
+            border-width: 1px;
+            border-color: black;
+            border-style: solid;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Hangman Game</h1>
+    <h2>(Scenario : Birds)</h2>
+    <p>What is this word??</p>
+    <p id="currentWordSpan"></p>
+
+    <img id="hangmanImage" class="mainImage" src="images/man_0.png">
+
+    <p>
+        <input type="text" id="letterInput">
+        <button id="guessLetterButton">Guess a new letter!</button>
+    </p>
+    <div>
+    <h2>Message for You:</h2>
+    <p id="message"></p>
+     <h2> Wrong guesses so far:</h2>
+    <p id="wrongGuess"></p>
+    
+    
+    </div>
+    <script src="hangman.js"></script>
+</body>
+</html>
